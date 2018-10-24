@@ -12,3 +12,5 @@ These samples are then ploted into a histogram using `pyplot.hist` function of t
 A gaussian/normal distribution with 1000 samples is generated randomly using `numpy.random.normal` function of the numpy library. The function takes three parameters - the mean of the distribution, the standard deviation (width) of the distribution and the number of samples to be generated, and returns an array containing the samples.
 
 These samples are then ploted into a histogram using `pyplot.hist` function of the matplotlib library.
+
+![Alt](screenshots/gaussian_5000.png "Histogram of Gaussian Distibution generated with 5000 as Mean and 1 as Standard Deviation.")

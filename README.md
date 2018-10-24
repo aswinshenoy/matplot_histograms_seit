@@ -1,5 +1,5 @@
 # Histogram using Matplotlib on Python
-Histograms generated using matplotlib module on Python
+Histograms generated using matplotlib library on Python based on random samples generated using numpy library.
 
 ## Histogram of Poisson Distribution
 A poisson distribution with 1000 samples is generated randomly using `numpy.random.poisson` function of the numpy library. The function takes two parameters - expectation value (λ) for the distribution, and the number of samples to be generated, and returns an array containing the samples.

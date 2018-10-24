@@ -10,7 +10,7 @@ data = random.poisson(expectation_val,no_of_samples)
 print(data)
 
 # Generates a Histogram using the data generated
-histogram = pyplot.hist(x, 50, facecolor='red', alpha=0.75)
+histogram = pyplot.hist(data, 50, facecolor='red', alpha=0.75)
 
 # Labels & Titles for the Histogram
 pyplot.ylabel('Probability')
